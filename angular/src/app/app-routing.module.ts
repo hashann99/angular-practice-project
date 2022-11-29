@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import {InterpolationComponent} from "./componets/interpolation/interpolation.component";
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path:'interpolation',
+    component:InterpolationComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
